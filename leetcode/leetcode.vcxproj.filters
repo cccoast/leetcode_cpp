@@ -18,9 +18,54 @@
     <ClInclude Include="next_permutaion.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="searchRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permuteUnique.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="groupAnagrams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subsetsWithDup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="next_permutaion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="searchRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="permuteUnique.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="groupAnagrams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subsetsWithDup.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

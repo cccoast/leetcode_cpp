@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <set>
 using namespace std;
+
+void nextPermutation();
 class Solution {
 	 multiset<int> candidate;
 	 bool fill_after;

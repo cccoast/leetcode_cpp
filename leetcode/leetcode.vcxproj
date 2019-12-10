@@ -119,10 +119,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="groupAnagrams.h" />
+    <ClInclude Include="isMatch.h" />
+    <ClInclude Include="LRUCache.h" />
+    <ClInclude Include="merge.h" />
     <ClInclude Include="next_permutaion.h" />
+    <ClInclude Include="permuteUnique.h" />
+    <ClInclude Include="searchRange.h" />
+    <ClInclude Include="subsetsWithDup.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="groupAnagrams.cpp" />
+    <ClCompile Include="isMatch.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="merge.cpp" />
+    <ClCompile Include="next_permutaion.cpp" />
+    <ClCompile Include="permuteUnique.cpp" />
+    <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="subsetsWithDup.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
