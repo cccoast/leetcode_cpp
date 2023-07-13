@@ -1,27 +1,38 @@
+#pragma once
 #include <vector>
 #include <iostream>
 #include <map>
+#include <set>
 #include <algorithm>
 using namespace std;
 void subsetsWithDup();
-class Solution {
+class Sol {
 	vector<vector<int>> v;
 	map<int,int> cache;
 	vector<int> occur;
+	set<string> used;
 public:
-	Solution() :v(0),occur(0) {};
+	Sol() :v{}, occur{}, cache{}
+	{
+	}
+
 	void dfs(vector<int>& nums, int l, int max_length, vector<int>& subset) {
 		if (subset.size() >= max_length) {
-			this->v.push_back(subset);
+			string s;
+			for (char c : subset) {
+				s.push_back(c);
+			}
+			if (used.find(s) == used.end()) {
+				this->v.push_back(subset);
+				used.insert(s);
+			}
 			return;
 		}
-		if (l >= max_length) return;
-		for (int i = l; i < max_length; i++) {
-			if (subset.size() + 1 >= occur[i]) {
-				subset.push_back(nums[i]);
-				dfs(nums, i + 1, max_length, subset);
-				subset.pop_back();
-			}
+		if (l >= nums.size()) return;
+		for (int i = l; i < nums.size(); i++) {
+			subset.push_back(nums[i]);
+			dfs(nums, i + 1, max_length, subset);
+			subset.pop_back();
 		}
 	}
 
@@ -38,7 +49,7 @@ public:
 			int value = nums[i];
 			auto iter = cache.find(value);
 			if (iter == cache.end()) {
-				cache[value] = 1;
+				cache.insert(make_pair(value,1));
 			}
 			else {
 				cache[value]++;
@@ -46,9 +57,10 @@ public:
 			int t = cache[value];
 			occur.push_back(t);
 		}
-		for (int i = 0; i < nums.size(); i++) {
+		for (int i = 0; i <= nums.size(); i++) {
 			findn(nums, i);
 		}
+		v.push_back(vector<int>());
 		return v;
 	}
 };

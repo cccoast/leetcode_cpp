@@ -6,7 +6,7 @@ using namespace std;
 
 void groupAnagrams() {
 	vector<string> s{ "eat", "tea", "tan", "ate", "nat", "bat" };
-	auto solver = Solution();
+	Solution solver;
 	auto ret = solver.groupAnagrams(s);
 	for (auto v : ret) {
 		for (auto s : v) {

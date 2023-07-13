@@ -6,7 +6,7 @@
 using namespace std;
 
 void searchRange() {
-	auto solver = Solution();
+	Solution solver;
 	auto array = vector<int>{ 5,7,7,8,8,10 };
 	int target = 8;
 	auto v = solver.searchRange(array, 8);

@@ -7,7 +7,7 @@ using namespace std;
 void isMatch() {
 	string s = "babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbbb**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a";
 	string p = "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a";
-	auto solver = Solution();
+	Solution solver;
 	auto re = solver.isMatch(s,p);
 	cout << re << endl;
 }

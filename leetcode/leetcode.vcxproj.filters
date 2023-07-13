@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="next_permutaion.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="searchRange.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="permuteUnique.h">
+    <ClInclude Include="subsetsWithDup.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="groupAnagrams.h">
@@ -30,13 +24,43 @@
     <ClInclude Include="isMatch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="merge.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="LRUCache.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="subsetsWithDup.h">
+    <ClInclude Include="merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="next_permutaion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permuteUnique.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="searchRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numDecodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longestConsecutive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="restoreIpAddresses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxProfit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findMinHeightTrees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nthSuperUglyNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,13 +68,7 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="next_permutaion.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="searchRange.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="permuteUnique.cpp">
+    <ClCompile Include="subsetsWithDup.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="groupAnagrams.cpp">
@@ -59,13 +77,46 @@
     <ClCompile Include="isMatch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="merge.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="LRUCache.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="subsetsWithDup.cpp">
+    <ClCompile Include="merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="next_permutaion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="permuteUnique.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="searchRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numDecodings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="longestConsecutive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="restoreIpAddresses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="maxProfit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findMinHeightTrees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nthSuperUglyNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

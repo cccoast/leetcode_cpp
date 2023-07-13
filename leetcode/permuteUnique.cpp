@@ -6,7 +6,7 @@ using namespace std;
 
 void permuteUnique() {
 	vector<int> v{ 1,1,2 };
-	auto solver = Solution();
+	Solution solver;
 	auto re = solver.permuteUnique(v);
 	for (auto i : re) {
 		for (auto j : i) {
